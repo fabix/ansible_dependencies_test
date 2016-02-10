@@ -1,0 +1,8 @@
+---
+
+- hosts: localhost
+
+  roles:
+  - { role: role_test1, name: "foo" }
+  - { role: role_test1, name: "bar" }
+  

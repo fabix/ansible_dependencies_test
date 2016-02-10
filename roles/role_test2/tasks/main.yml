@@ -1,0 +1,4 @@
+---
+
+- name: display test var
+  debug: msg="{{ name }}"
